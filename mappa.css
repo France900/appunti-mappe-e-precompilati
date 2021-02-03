@@ -1,0 +1,97 @@
+
+CSS
+
+selettore {/* piu è specifico piu è potente */
+  proprietà: valore;
+  proprietà: valore;
+}
+
+* { /* racchiude tutto il file html */
+  box-sizing: border-box; /* non aumenta le dimensioni date */
+  margin: 0; /* leva i margini */
+} /* altre info sugli appunti */
+
+.selettore:after { /* va messo sul contenitore dei contenitori float */
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.ammaccabanane { /* seleziona tutti gli attributi class="ammaccabanane" */
+  color: yellow
+}
+
+div { /* seleziona tutti i <div> funziona anche con gli altri tag*/
+  color: yellow
+}
+
+#test { /* seleziona tutti i tag con id="test" ed è univoco. non ci può essere un altro tag con id="test" */
+  color: yellow
+}
+
+.esempio_proprieta {
+  background
+  color
+  width
+  height
+  border
+  font
+  size
+  -radius /*arrotonda background o border*/
+}
+
+.esempio_somme {
+  background-color: yellow;
+  font-size: 55px;
+  text-align: center;
+  border-color: orange;
+  background-image:  url();
+}
+
+.bordi_margini_padding { /* vedi screenshot,possiedono top left right bottom */
+  padding: 8px;
+  border: 50px solid yellow; /* solid sta per tutto dritto */
+  margin: 8px; /* di solito zero perche è stronzo, può essere usato con auto */
+}/* per scorciatoie per border vedi screenshot */
+
+.allineatore { /* Vedi la lezione quarta e screenshot*/
+  display: none; /*in pratica non esiste */
+  display: block; /*lo sai */
+  display: inline;  /* lo sai*/
+  display: inline-block; /* mette i block level sulla stessa riga, non funziona con le h1 ecc */
+}
+
+.unita_di_misura {
+  px /* numero di pixel*/
+  % /* percentuale rispetto al blocco contenitore (padre) */
+  em /* basato sulle dimensioni del font */
+  vh /* % della dimensione in height del viewport (schermo)*/
+  vw /* % della dimensione in weight (larghezza) del viewport */
+}
+
+.colori {
+  color: lightgrey;
+  color: rgba(255, 0, 0, 0.5);
+}
+
+/* da qui in giu seguono le proprieta css degli screenshot */
+.font {
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 18px; /* il contenitore del testo, il testo è centrato*/
+  text-align: center;
+  text-decoration: underline;
+} /* vedi font family screenshot per info, metti sempre un safe font per sicurezza */
+
+/* esiste l'ereditarietà, vedi screenshot,
+quelle che si occupano di testo sono ereditabili */
+
+/* .backgrounds {  non so quanto serva riscriverli
+  background-color: ; è sulle slide
+  background-image: ; è sulle slide
+  background-size: ; è sulle slide es 'cover'
+  background-repeat ; riempie tutto ma duplica limmagine
+  background-attachment: ; l'mmagine resta fissa quando scrolli  è sulle slide
+  background-position: ;
+} sullo screenshot hai le forme abbreviate*/

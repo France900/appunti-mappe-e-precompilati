@@ -1,0 +1,131 @@
+
+html: tag --> attribute -->
+
+BLOCK LEVEL TAGS - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --
+<div class="">
+  <p>paragrafo</p>
+  <h1>heading intestazione</h1>
+  <ol>
+    ordered list
+  </ol>
+  <li>list item</li>
+  <ul>
+    unordered list
+  </ul>
+  <hr> (horizontal rule)
+  <div class="">
+    block element container
+  </div>
+</div>
+
+TAG SEMANTICI che sono block level (vedi screenshot)
+<div class="">
+  <header>es logo</header>
+  <nav>es menu</nav>
+  <main>la parte principale del sito</main>
+  <section>le sezioni</section>
+  <aside>la parte a lato</aside>
+  <footer>la parte finale, es crediti</footer>
+</div>
+
+IN LINE LEVEL TAGS - - - - - - - - - - - - - - - - - - - - - - - - - - - - --
+<div class="">
+  <em>italic (corsivo)</em>    <strong>grassetto</strong> <b>sempre grassetto</b>
+  <br> line brake (va a capo)
+
+  <img src="" alt="Image" height="42" width="42"> <!-- è un tag inline-block, vedi css -->
+  <!-- aggiunge un immagine src è il link o il nome(nel caso sia nel pc, stessa cartella file.html) -->
+
+  <span>in line container</span>
+
+  <a href="#"></a>  <!-- per inserire i link o il nome del file-->
+
+  <label>etichetta</label>
+
+</div>
+
+IMPUT TAGS  (che sono in linea)- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --
+<div class="">
+
+  <form action="indirizoorecchioinascolto o file da aprire" method="post">
+    <input type="text" placeholder="Nome o Cognome">
+    <input type="password" placeholder="password" pattern=".{6,}" title="Minimo 6 caratteri" required>
+    <input type="date">
+    <input type="checkbox">
+    <input type="email" placeholder="Inserisci l'email">
+    <input type="submite">
+
+    <input type="number">
+    <input type="color">
+    <input type="file">
+    <input type="month">
+    <input type="range">
+    <input type="time">
+
+    <!-- input per radio -->
+    <p>Select a thing:</p>
+    <div>
+      <input type="radio" checked>thing 1
+    </div>
+    <div>
+      <input type="radio">thing 2
+    </div>
+    <div>
+      <input type="radio">thing 3
+    </div>
+
+    <!-- Menu a tendina -->
+    <select class="" name="">
+      <option value="">Milf</option>
+      <option value="">Teen</option>
+    </select>
+
+    <textarea name="name" rows="8" cols="80"></textarea>
+
+    <button type="button" name="button">click</button>
+
+  </form>
+
+</div>
+
+GLI ATTRIBUTI - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+<div class="">
+  id = "" serve a dare il nome univoco al tag per il css
+  class = "" come id ma modulare
+
+  size="25"   lunghezza della casella visibile
+  type = "" per i tag imput
+  required "rende il campo obbligatorio"
+  checked "nelle caselle la mette marcata"
+  placeholder="la scrittina in grigio"
+
+  minlength="4"
+  maxlength="25"
+
+  pattern=".{3,}"   required title="3 characters minimum"
+  pattern=".{5,10}" required title="5 to 10 characters"
+
+  pattern=".{0}|.{5,10}" required title="Either 0 OR (5 to 10 chars)"
+  pattern=".{0}|.{8,}"   required title="Either 0 OR (8 chars minimum)"
+
+  name="da il nome al dato che viene trasmesso al backends"
+  value="quello che ci è scritt di base, lo possiamo cancellare"
+</div>
+
+VARI  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+<div class="">
+
+  entities:
+  &hearts; ti fa il cuoricino
+  &starf; fa la stellina
+
+  <!-- con control shift 7 ci mette il commento in automatico  -->
+  <!-- per cercare su internet informazione mdn o w3school  -->
+
+  fammelo vedere
+  come funziona
+  di quale categoria fa parte
+  cosa ci ottengo
+  basta questo brutti nozionistici del cazzo
+
+</div>

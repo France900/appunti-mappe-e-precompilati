@@ -1,0 +1,4 @@
+per centrare menu serve vertical align middle (allinea il contenuto ) e line height che allinea il contenitore (es contenitore 80 px line height 80px)
+
+
+con il float serve sempre il clearfix altrimenti si sputtana tutto
